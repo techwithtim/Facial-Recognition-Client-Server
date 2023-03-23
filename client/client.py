@@ -10,7 +10,7 @@ def string_to_image(base64_string):
     return np.array(Image.open(io.BytesIO(imgdata)))
 
 
-url = 'http://127.0.0.1:5000/classify-faces'
+url = 'http://localhost:5000/classify-faces'
 my_img = {'image': open('test-image.jpg', 'rb')} # feel free to change the image path here
 r = requests.post(url, files=my_img)
 

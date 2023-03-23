@@ -33,10 +33,10 @@ Assuming all of the packages are installed correctly you should be able to run t
 - Execute the python script `face_rec.py`: `python face_rec.py` or `python3 face_rec.py`
 - Wait, and press `q` to quit the window!
 
-If you'd like to change the image the faces are being predicted for simply download a new image and set the path on line 64 from `face_rec.py`:
+If you'd like to change the image the faces are being predicted for simply download a new image and set the path on line 55 from `face_rec.py`:
 
 ```python
-print(classify_face("test-image.jpg")) # feel free to change the image path here
+print(classify_face("test-image.jpg"))
 ```
 
 ### Running With Client/Server
