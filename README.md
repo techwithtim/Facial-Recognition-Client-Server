@@ -14,6 +14,10 @@ If you are on Mac or Linux you can skip this step...
 
 dlib can be challenging to install on Windows. If you are having trouble try looking through this [Stack Overflow Issue](https://stackoverflow.com/questions/74476152/error-in-installing-dlib-library-in-python3-11)
 
+### dlib Requirements (Ubuntu/Mac)
+
+Refer to [this guide](https://pyimagesearch.com/2018/01/22/install-dlib-easy-complete-guide/) for help installing dlib on Mac/Linux:
+
 ### Install Python Packages
 
 Start by cloning this repository: `git clone <repo-url>` then `cd <repo-directory>`
